@@ -6,13 +6,13 @@ import Main from '../layout/Main/Main';
 
 const router = createBrowserRouter([
     {
-        path: '/users',
+        path: '/',
         element: <Main></Main>,
         errorElement: <ErrorPage></ErrorPage>,
         children: [
 
             {
-                path: '/users',
+                path: '/',
                 loader: () => fetch('https://jsonplaceholder.typicode.com/users'),
                 element: <Users></Users>
             },

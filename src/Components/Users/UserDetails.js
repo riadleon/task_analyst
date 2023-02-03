@@ -1,6 +1,6 @@
 import React from 'react';
-import {Container } from 'react-bootstrap';
-import {Link, useLoaderData } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const UserDetails = () => {
     const details = useLoaderData();
@@ -10,7 +10,7 @@ const UserDetails = () => {
                 <table className="table table-light border">
                     <thead>
                         <tr>
-                            <th scope="col">NAME</th>
+                            <th scope="col"></th>
                             <th scope="col">CONTACT</th>
                             <th scope="col">CITY</th>
                             <th scope="col">STREET</th>
@@ -23,7 +23,7 @@ const UserDetails = () => {
                             <td>{details.name}</td>
                             <td>{details.address.city}</td>
                             <td>{details.address.street}</td>
-                            <td><Link to='/users' className='btn btn-danger'>Hide Details</Link></td>
+                            <td><Link to='/' className='btn btn-danger'>Hide Details</Link></td>
                         </tr>
                     </tbody>
                 </table>
