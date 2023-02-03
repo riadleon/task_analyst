@@ -47,7 +47,7 @@ const UserDetails = () => {
                             <b>City</b>
                             <p>{details.address.city}</p>
                             <b>Country</b>
-                            <p>India</p>
+                            <p>No data</p>
                         </div>
                         <div></div>
                     </div>
