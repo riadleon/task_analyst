@@ -1,0 +1,8 @@
+.pagination {
+    --bs-pagination-active-bg: #dc3545;
+    --bs-pagination-active-border-color: #dc3545;
+}
+.active>.page-link, .page-link.active{
+    background-color: #dc3545 !important;;
+    border-color: #dc3545 !important;;
+}
